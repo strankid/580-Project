@@ -1,0 +1,44 @@
+PWD c:/Users/Apoorv/Rice/Fall22/Probabilistic_Algorithms/Project
+INPUT c:/texlive/2022/texmf.cnf
+INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Apoorv/Rice/Fall22/Probabilistic_Algorithms/Project/main (1)-2.tex
+OUTPUT main (1)-2.log
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./main (1)-2.aux
+INPUT main (1)-2.aux
+INPUT main (1)-2.aux
+OUTPUT main (1)-2.aux
+INPUT c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+OUTPUT main (1)-2.pdf
+INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT main (1)-2.aux
+INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

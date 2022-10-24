@@ -1,0 +1,158 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{2}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1e615c059555da32daebe1438fdc2a8b}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cffd355887e938e9121d9a52295539d9}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=44eec2d789a9f0b2d4e544c8b9f99fe5}{%
+           family={Veeravalli},
+           familyi={V\bibinitperiod},
+           given={Bharadwaj},
+           giveni={B\bibinitperiod}}}%
+        {{hash=197ede76cbb39fe4ffbf5bec08c198a9}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{875660bb1ff0982bbceb81d0c61c96c3}
+      \strng{fullhash}{b8f6d10c70f7a7f31b748f7138db8966}
+      \strng{bibnamehash}{875660bb1ff0982bbceb81d0c61c96c3}
+      \strng{authorbibnamehash}{875660bb1ff0982bbceb81d0c61c96c3}
+      \strng{authornamehash}{875660bb1ff0982bbceb81d0c61c96c3}
+      \strng{authorfullhash}{b8f6d10c70f7a7f31b748f7138db8966}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{6}
+      \field{title}{Locality-Sensitive Bloom Filter for Approximate Membership Query}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{pages}{817\bibrangedash 830}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TC.2011.108
+      \endverb
+    \endentry
+    \entry{3}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e722c157f4659aa771a786d0d4de3d66}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Lailong},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8ce4d010f21c93145043839f222d7bf9}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Deke},
+           giveni={D\bibinitperiod}}}%
+        {{hash=235ebd4179e64595b719375036345755}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelimb T.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=516176c78b0bbe4b78e55740a7852ad0}{%
+           family={Rottenstreich},
+           familyi={R\bibinitperiod},
+           given={Ori},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7283593fc3b36b6120a18d8ca5ff8ab7}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xueshan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ed36d6bdb8e6c2ca085c1c9c13366a9}
+      \strng{fullhash}{9614dd0f30bc6966ec2c1c08c10e92d1}
+      \strng{bibnamehash}{4ed36d6bdb8e6c2ca085c1c9c13366a9}
+      \strng{authorbibnamehash}{4ed36d6bdb8e6c2ca085c1c9c13366a9}
+      \strng{authornamehash}{4ed36d6bdb8e6c2ca085c1c9c13366a9}
+      \strng{authorfullhash}{9614dd0f30bc6966ec2c1c08c10e92d1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Surveys & Tutorials}
+      \field{number}{2}
+      \field{title}{Optimizing Bloom Filter: Challenges, Solutions, and Comparisons}
+      \field{volume}{21}
+      \field{year}{2019}
+      \field{pages}{1912\bibrangedash 1949}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1109/COMST.2018.2889329
+      \endverb
+    \endentry
+    \entry{1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f583d5fbab6f9962e68568197ffeaecb}{%
+           family={Prakasam},
+           familyi={P\bibinitperiod},
+           given={Elakkiya},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b78201f6ecbb98271dba390acf1ce569}{%
+           family={Manoharan},
+           familyi={M\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af73904a54b1d3c26243b05234b11303}
+      \strng{fullhash}{af73904a54b1d3c26243b05234b11303}
+      \strng{bibnamehash}{af73904a54b1d3c26243b05234b11303}
+      \strng{authorbibnamehash}{af73904a54b1d3c26243b05234b11303}
+      \strng{authornamehash}{af73904a54b1d3c26243b05234b11303}
+      \strng{authorfullhash}{af73904a54b1d3c26243b05234b11303}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bloom filters are widely used in genome assembly, IoT applications and several network applications such as symmetric encryption algorithms, and blockchain applications owing to their advantages of fast querying, despite some false positives in querying the input elements. There are many research works carried out to improve both the insertion and querying speed or reduce the false-positive or reduce the storage requirements separately. However, the optimization of all the aforementioned parameters is quite challenging with the existing reported systems. This work proposes to simultaneously improve the insertion and querying speeds by introducing a Cache-efficient One-Hashing Blocked Bloom filter. The proposed method aims to reduce the number of memory accesses required for querying elements into one by splitting the memory into blocks where the block size is equal to the cache line size of the memory. In the proposed filter, each block has further been split into partitions where the size of each partition is the prime number. For insertion and query, one hash value is required, which yields different values when modulo divided with prime numbers. The speed is accelerated using simple hash functions where the hash function is called only once. The proposed method has been implemented and validated using random strings and symmetric K-mer datasets used in the gene assembly. The simulation results show that the proposed filter outperforms the Standard Bloom Filter in terms of the insertion and querying speed.}
+      \field{issn}{2073-8994}
+      \field{journaltitle}{Symmetry}
+      \field{number}{9}
+      \field{title}{A Cache Efficient One Hashing Blocked Bloom Filter (OHBB) for Random Strings and the K-mer Strings in DNA Sequence}
+      \field{volume}{14}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/sym14091911
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-8994/14/9/1911
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-8994/14/9/1911
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

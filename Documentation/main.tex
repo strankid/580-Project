@@ -1,0 +1,8 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{bibliography.bib} %Import the bibliography file
+
+\begin{document}
+There are many different implementations of blocked bloom filter and LSH. Elakkiya \cite{1} implemented a cache efficient one hashing blocked bloom filter, the approach included further dividing each of the blocks into partitions of the size of a prime number. They implemented this bloom filter on genomic data and demonstrated better results that prior work. Yu Hua \cite{2} implemented the Locality sensitive bloom filter where they replaced the traditional uniform and independent hash functions with locality sensitive hash functions. They tried to improve the false positive rate by introducing a bit vector to verify the multiple attributes of a member. Lailong \cite{3} provides a detailed survey of the challenges, solutions and also compares various bloom filter implementations.
+\printbibliography 
+\end{document}
