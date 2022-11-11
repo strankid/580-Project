@@ -2,7 +2,7 @@ import numpy as np
 import time
 import faiss
 
-def query(dim,data_size,nqueries,GPU,test_path,nns_path, Index_path, K):
+def query(dim,data_size,nqueries,GPU,test_data,nns_data, Index_path, K):
 #change these params
     d = dim                                      # dimension
     nb = data_size                               # database size, 1B
@@ -10,10 +10,12 @@ def query(dim,data_size,nqueries,GPU,test_path,nns_path, Index_path, K):
     np.random.seed(1234)                         # make reproducible
     gpu = False
 
-    test_datapath = test_path    
-    nns_datapath =  nns_path     
-    test = np.load(test_datapath).astype(np.float32)
-    nns = np.load(nns_datapath)
+    # test_datapath = test_path    
+    # nns_datapath =  nns_path     
+    # test = np.load(test_datapath).astype(np.float32)
+    test=test_data.astype(np.float32)
+    # nns = np.load(nns_datapath)
+    nns=nns_data
     # print (type(test[0,0]))
 
     index_path = Index_path 

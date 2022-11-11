@@ -3,10 +3,10 @@ import numpy as np
 import time
 import faiss 
 
-def index(Data_path, index):
+def index(Data, index,Path):
     np.random.seed(1234)             # make reproducible
-    datapath = Data_path            
-    xb = np.load(datapath)
+    # datapath = Data_path            
+    xb = Data
     d = xb.shape[1]                         # dimension
     nb = xb.shape[0]                        # database size, 1M
 
@@ -31,7 +31,7 @@ def index(Data_path, index):
 
     print ("total train time: ", time.time()-t1)
 
-    saveLoc="./COMP580_"+Data_path;
+    saveLoc=Path;
 
     print ("saving at ", saveLoc)
     faiss.write_index(index_ivf, saveLoc)
