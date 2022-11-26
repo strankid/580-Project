@@ -2,13 +2,13 @@ import numpy as np
 import time
 import faiss
 
-def query(dim,data_size,nqueries,GPU,test_data,nns_data, Index_path, K):
+def query(dim,data_size,nqueries,GPU,test_data,nns_data, Index_path, NPROBE, K):
 #change these params
     d = dim                                      # dimension
     nb = data_size                               # database size, 1B
     nq = nqueries                                # nb of queries
     np.random.seed(1234)                         # make reproducible
-    gpu = False
+    gpu = GPU
 
     # test_datapath = test_path    
     # nns_datapath =  nns_path     
@@ -18,13 +18,15 @@ def query(dim,data_size,nqueries,GPU,test_data,nns_data, Index_path, K):
     nns=nns_data
     # print (type(test[0,0]))
 
+    res = faiss.StandardGpuResources()  # use a single GPU
     index_path = Index_path 
 
     cpu_index = faiss.read_index(index_path)
     index_ivf = faiss.extract_index_ivf(cpu_index)
     if gpu:
-        co = faiss.GpuMultipleClonerOptions()
-        gpu_index_ivf = faiss.index_cpu_to_all_gpus(index_ivf, co)
+          gpu_index_ivf = faiss.index_cpu_to_gpu(res, 0, index_ivf)
+#         co = faiss.GpuMultipleClonerOptions()
+#         gpu_index_ivf = faiss.index_cpu_to_all_gpus(index_ivf, co)
     else:
         gpu_index_ivf = index_ivf
 
@@ -35,8 +37,9 @@ def query(dim,data_size,nqueries,GPU,test_data,nns_data, Index_path, K):
     Nprobe=[1]
     for nprobe in Nprobe:
         if gpu:
-            for i in range(gpu_index_ivf.count()):
-                faiss.downcast_index(gpu_index_ivf.at(i)).nprobe = nprobe
+#             for i in range(gpu_index_ivf.count()):
+#                 faiss.downcast_index(gpu_index_ivf.at(i)).nprobe = 10
+            gpu_index_ivf.nprobe = NPROBE
         else:
             gpu_index_ivf.nprobe = nprobe
 
