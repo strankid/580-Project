@@ -17,7 +17,7 @@ def index(Data, index,Path):
     ## Using an IVF index
     t1 = time.time()
 
-    index_ivf = faiss.index_factory(d, index, faiss.METRIC_INNER_PRODUCT) #'IVF16384,PQ96'
+    index_ivf = faiss.index_factory(d, index, faiss.METRIC_L2) #'IVF16384,PQ96'
     print (res)
     gpu_index_ivf = faiss.index_cpu_to_gpu(res, 0, index_ivf) 
 
