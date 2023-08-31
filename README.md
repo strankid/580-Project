@@ -1,4 +1,4 @@
-#Adaptive Learning with Dynamic Batch Creation
+# Adaptive Learning with Dynamic Batch Creation
 
 Using Near-Neighbors
 Deep neural networks (DNNs) are the most
@@ -23,3 +23,5 @@ on the loss/gradients previously computed for
 each datapoint. This allows SGD to focus on the
 most relevant training datapoints and progress
 faster.
+
+Refer to the attached report to better understand the results and figures.
